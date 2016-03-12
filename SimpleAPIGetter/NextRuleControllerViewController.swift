@@ -1,8 +1,8 @@
 //
-//  ViewController.swift
+//  NextRuleControllerViewController.swift
 //  SimpleAPIGetter
 //
-//  Created by 阪田祐宇 on 2016/03/05.
+//  Created by 阪田祐宇 on 2016/03/11.
 //  Copyright © 2016年 fefe. All rights reserved.
 //
 
@@ -10,8 +10,7 @@ import UIKit
 import SwiftyJSON
 import Alamofire
 
-class ViewController: UIViewController {
-    
+class NextRuleControllerViewController: UIViewController {
     @IBOutlet var rule:UILabel?
     @IBOutlet var map:UILabel?
     @IBOutlet var time:UILabel?
@@ -37,19 +36,20 @@ class ViewController: UIViewController {
         "mongara.jpeg",
         "bbasu.jpg"
     ]
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         getSplatoonInfo()
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
+    @IBAction func back(sender: UIStoryboardSegue) {}
     
     func getNowRule() {
-        let urlString = "http://splapi.retrorocket.biz/gachi/now"
+        let urlString = "http://splapi.retrorocket.biz/gachi/next"
         Alamofire.request(.GET, urlString)
             .responseJSON { responce in
                 if let base = responce.result.value {
@@ -84,6 +84,5 @@ class ViewController: UIViewController {
                 }
         }
     }
-    
-}
 
+}

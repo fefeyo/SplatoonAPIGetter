@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86CDD5CB58D39976CEDB481D /* Pods_SimpleAPIGetter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D859CF6CB15266799CCDD5B /* Pods_SimpleAPIGetter.framework */; };
 		935ABFFC1C8ACEFF00AD2C19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935ABFFB1C8ACEFF00AD2C19 /* AppDelegate.swift */; };
 		935ABFFE1C8ACEFF00AD2C19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935ABFFD1C8ACEFF00AD2C19 /* ViewController.swift */; };
 		935AC0011C8ACEFF00AD2C19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935ABFFF1C8ACEFF00AD2C19 /* Main.storyboard */; };
@@ -14,6 +15,30 @@
 		935AC0061C8ACEFF00AD2C19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935AC0041C8ACEFF00AD2C19 /* LaunchScreen.storyboard */; };
 		935AC0111C8ACEFF00AD2C19 /* SimpleAPIGetterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AC0101C8ACEFF00AD2C19 /* SimpleAPIGetterTests.swift */; };
 		935AC01C1C8ACF0000AD2C19 /* SimpleAPIGetterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AC01B1C8ACF0000AD2C19 /* SimpleAPIGetterUITests.swift */; };
+		9360B7D41C92A1D100D1552B /* NextRuleControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9360B7D31C92A1D100D1552B /* NextRuleControllerViewController.swift */; };
+		93A534581C8BCB3C0047FB5E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A534561C8BCB3C0047FB5E /* Alamofire.framework */; };
+		93A534591C8BCB3C0047FB5E /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A534571C8BCB3C0047FB5E /* SwiftyJSON.framework */; };
+		93DE3C2A1C92F2A300C975EE /* antyobi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C161C92F2A300C975EE /* antyobi.jpg */; };
+		93DE3C2B1C92F2A300C975EE /* arowana.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C171C92F2A300C975EE /* arowana.jpeg */; };
+		93DE3C2C1C92F2A300C975EE /* bbasu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C181C92F2A300C975EE /* bbasu.jpg */; };
+		93DE3C2D1C92F2A300C975EE /* dekaline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C191C92F2A300C975EE /* dekaline.jpg */; };
+		93DE3C2E1C92F2A300C975EE /* haikei.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C1A1C92F2A300C975EE /* haikei.png */; };
+		93DE3C2F1C92F2A300C975EE /* hakofugu.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C1B1C92F2A300C975EE /* hakofugu.png */; };
+		93DE3C301C92F2A300C975EE /* hirame.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C1C1C92F2A300C975EE /* hirame.jpg */; };
+		93DE3C311C92F2A300C975EE /* hokke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C1D1C92F2A300C975EE /* hokke.jpg */; };
+		93DE3C321C92F2A300C975EE /* kinmedai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C1E1C92F2A300C975EE /* kinmedai.jpg */; };
+		93DE3C331C92F2A300C975EE /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C1F1C92F2A300C975EE /* logo.png */; };
+		93DE3C341C92F2A300C975EE /* mahimahi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C201C92F2A300C975EE /* mahimahi.jpeg */; };
+		93DE3C351C92F2A300C975EE /* masaba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C211C92F2A300C975EE /* masaba.jpg */; };
+		93DE3C361C92F2A300C975EE /* mongara.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C221C92F2A300C975EE /* mongara.jpeg */; };
+		93DE3C371C92F2A300C975EE /* mozuku.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C231C92F2A300C975EE /* mozuku.jpg */; };
+		93DE3C381C92F2A300C975EE /* negitoro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C241C92F2A300C975EE /* negitoro.jpg */; };
+		93DE3C391C92F2A300C975EE /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C251C92F2A300C975EE /* next.png */; };
+		93DE3C3A1C92F2A300C975EE /* now.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C261C92F2A300C975EE /* now.png */; };
+		93DE3C3B1C92F2A300C975EE /* sionome.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C271C92F2A300C975EE /* sionome.jpeg */; };
+		93DE3C3C1C92F2A300C975EE /* syotturu.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C281C92F2A300C975EE /* syotturu.jpeg */; };
+		93DE3C3D1C92F2A300C975EE /* tatiuo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C291C92F2A300C975EE /* tatiuo.jpg */; };
+		93DE3C411C93123E00C975EE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DE3C401C93123E00C975EE /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		935ABFF81C8ACEFF00AD2C19 /* SimpleAPIGetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAPIGetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C80595341C16AF00A059BC2 /* Pods-SimpleAPIGetter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleAPIGetter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleAPIGetter/Pods-SimpleAPIGetter.debug.xcconfig"; sourceTree = "<group>"; };
+		935ABFF81C8ACEFF00AD2C19 /* ガチマッチャー.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ガチマッチャー.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		935ABFFB1C8ACEFF00AD2C19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		935ABFFD1C8ACEFF00AD2C19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		935AC0001C8ACEFF00AD2C19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,6 +73,32 @@
 		935AC0171C8ACEFF00AD2C19 /* SimpleAPIGetterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleAPIGetterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		935AC01B1C8ACF0000AD2C19 /* SimpleAPIGetterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAPIGetterUITests.swift; sourceTree = "<group>"; };
 		935AC01D1C8ACF0000AD2C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9360B7D31C92A1D100D1552B /* NextRuleControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextRuleControllerViewController.swift; sourceTree = "<group>"; };
+		93A534561C8BCB3C0047FB5E /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		93A534571C8BCB3C0047FB5E /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "Pods/../build/Debug-iphoneos/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		93DE3C161C92F2A300C975EE /* antyobi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = antyobi.jpg; sourceTree = "<group>"; };
+		93DE3C171C92F2A300C975EE /* arowana.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arowana.jpeg; sourceTree = "<group>"; };
+		93DE3C181C92F2A300C975EE /* bbasu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bbasu.jpg; sourceTree = "<group>"; };
+		93DE3C191C92F2A300C975EE /* dekaline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dekaline.jpg; sourceTree = "<group>"; };
+		93DE3C1A1C92F2A300C975EE /* haikei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikei.png; sourceTree = "<group>"; };
+		93DE3C1B1C92F2A300C975EE /* hakofugu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hakofugu.png; sourceTree = "<group>"; };
+		93DE3C1C1C92F2A300C975EE /* hirame.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hirame.jpg; sourceTree = "<group>"; };
+		93DE3C1D1C92F2A300C975EE /* hokke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hokke.jpg; sourceTree = "<group>"; };
+		93DE3C1E1C92F2A300C975EE /* kinmedai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kinmedai.jpg; sourceTree = "<group>"; };
+		93DE3C1F1C92F2A300C975EE /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		93DE3C201C92F2A300C975EE /* mahimahi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mahimahi.jpeg; sourceTree = "<group>"; };
+		93DE3C211C92F2A300C975EE /* masaba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = masaba.jpg; sourceTree = "<group>"; };
+		93DE3C221C92F2A300C975EE /* mongara.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mongara.jpeg; sourceTree = "<group>"; };
+		93DE3C231C92F2A300C975EE /* mozuku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mozuku.jpg; sourceTree = "<group>"; };
+		93DE3C241C92F2A300C975EE /* negitoro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = negitoro.jpg; sourceTree = "<group>"; };
+		93DE3C251C92F2A300C975EE /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		93DE3C261C92F2A300C975EE /* now.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = now.png; sourceTree = "<group>"; };
+		93DE3C271C92F2A300C975EE /* sionome.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sionome.jpeg; sourceTree = "<group>"; };
+		93DE3C281C92F2A300C975EE /* syotturu.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = syotturu.jpeg; sourceTree = "<group>"; };
+		93DE3C291C92F2A300C975EE /* tatiuo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tatiuo.jpg; sourceTree = "<group>"; };
+		93DE3C401C93123E00C975EE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		9D859CF6CB15266799CCDD5B /* Pods_SimpleAPIGetter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleAPIGetter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C219AC1A52992906CAD61365 /* Pods-SimpleAPIGetter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleAPIGetter.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleAPIGetter/Pods-SimpleAPIGetter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +106,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93A534581C8BCB3C0047FB5E /* Alamofire.framework in Frameworks */,
+				93A534591C8BCB3C0047FB5E /* SwiftyJSON.framework in Frameworks */,
+				86CDD5CB58D39976CEDB481D /* Pods_SimpleAPIGetter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +129,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4542234021699A493D406109 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C80595341C16AF00A059BC2 /* Pods-SimpleAPIGetter.debug.xcconfig */,
+				C219AC1A52992906CAD61365 /* Pods-SimpleAPIGetter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		935ABFEF1C8ACEFF00AD2C19 = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +145,15 @@
 				935AC00F1C8ACEFF00AD2C19 /* SimpleAPIGetterTests */,
 				935AC01A1C8ACEFF00AD2C19 /* SimpleAPIGetterUITests */,
 				935ABFF91C8ACEFF00AD2C19 /* Products */,
+				4542234021699A493D406109 /* Pods */,
+				93CEA8DDFACA6B7C57089756 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		935ABFF91C8ACEFF00AD2C19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				935ABFF81C8ACEFF00AD2C19 /* SimpleAPIGetter.app */,
+				935ABFF81C8ACEFF00AD2C19 /* ガチマッチャー.app */,
 				935AC00C1C8ACEFF00AD2C19 /* SimpleAPIGetterTests.xctest */,
 				935AC0171C8ACEFF00AD2C19 /* SimpleAPIGetterUITests.xctest */,
 			);
@@ -97,12 +163,14 @@
 		935ABFFA1C8ACEFF00AD2C19 /* SimpleAPIGetter */ = {
 			isa = PBXGroup;
 			children = (
+				9360B7AE1C91B6B500D1552B /* images */,
 				935ABFFB1C8ACEFF00AD2C19 /* AppDelegate.swift */,
 				935ABFFD1C8ACEFF00AD2C19 /* ViewController.swift */,
 				935ABFFF1C8ACEFF00AD2C19 /* Main.storyboard */,
 				935AC0021C8ACEFF00AD2C19 /* Assets.xcassets */,
 				935AC0041C8ACEFF00AD2C19 /* LaunchScreen.storyboard */,
 				935AC0071C8ACEFF00AD2C19 /* Info.plist */,
+				9360B7D31C92A1D100D1552B /* NextRuleControllerViewController.swift */,
 			);
 			path = SimpleAPIGetter;
 			sourceTree = "<group>";
@@ -125,6 +193,44 @@
 			path = SimpleAPIGetterUITests;
 			sourceTree = "<group>";
 		};
+		9360B7AE1C91B6B500D1552B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				93DE3C401C93123E00C975EE /* icon.png */,
+				93DE3C161C92F2A300C975EE /* antyobi.jpg */,
+				93DE3C171C92F2A300C975EE /* arowana.jpeg */,
+				93DE3C181C92F2A300C975EE /* bbasu.jpg */,
+				93DE3C191C92F2A300C975EE /* dekaline.jpg */,
+				93DE3C1A1C92F2A300C975EE /* haikei.png */,
+				93DE3C1B1C92F2A300C975EE /* hakofugu.png */,
+				93DE3C1C1C92F2A300C975EE /* hirame.jpg */,
+				93DE3C1D1C92F2A300C975EE /* hokke.jpg */,
+				93DE3C1E1C92F2A300C975EE /* kinmedai.jpg */,
+				93DE3C1F1C92F2A300C975EE /* logo.png */,
+				93DE3C201C92F2A300C975EE /* mahimahi.jpeg */,
+				93DE3C211C92F2A300C975EE /* masaba.jpg */,
+				93DE3C221C92F2A300C975EE /* mongara.jpeg */,
+				93DE3C231C92F2A300C975EE /* mozuku.jpg */,
+				93DE3C241C92F2A300C975EE /* negitoro.jpg */,
+				93DE3C251C92F2A300C975EE /* next.png */,
+				93DE3C261C92F2A300C975EE /* now.png */,
+				93DE3C271C92F2A300C975EE /* sionome.jpeg */,
+				93DE3C281C92F2A300C975EE /* syotturu.jpeg */,
+				93DE3C291C92F2A300C975EE /* tatiuo.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		93CEA8DDFACA6B7C57089756 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93A534561C8BCB3C0047FB5E /* Alamofire.framework */,
+				93A534571C8BCB3C0047FB5E /* SwiftyJSON.framework */,
+				9D859CF6CB15266799CCDD5B /* Pods_SimpleAPIGetter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 935AC0201C8ACF0000AD2C19 /* Build configuration list for PBXNativeTarget "SimpleAPIGetter" */;
 			buildPhases = (
+				402A546808CBA08D6C4C9F40 /* Check Pods Manifest.lock */,
 				935ABFF41C8ACEFF00AD2C19 /* Sources */,
 				935ABFF51C8ACEFF00AD2C19 /* Frameworks */,
 				935ABFF61C8ACEFF00AD2C19 /* Resources */,
+				C14B95A46E80F51648CE8226 /* Embed Pods Frameworks */,
+				21031970B9CD82C16C258FE2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,7 +251,7 @@
 			);
 			name = SimpleAPIGetter;
 			productName = SimpleAPIGetter;
-			productReference = 935ABFF81C8ACEFF00AD2C19 /* SimpleAPIGetter.app */;
+			productReference = 935ABFF81C8ACEFF00AD2C19 /* ガチマッチャー.app */;
 			productType = "com.apple.product-type.application";
 		};
 		935AC00B1C8ACEFF00AD2C19 /* SimpleAPIGetterTests */ = {
@@ -193,6 +302,7 @@
 				TargetAttributes = {
 					935ABFF71C8ACEFF00AD2C19 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = J8XYD4H7G7;
 					};
 					935AC00B1C8ACEFF00AD2C19 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -229,8 +339,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93DE3C331C92F2A300C975EE /* logo.png in Resources */,
+				93DE3C3B1C92F2A300C975EE /* sionome.jpeg in Resources */,
+				93DE3C2E1C92F2A300C975EE /* haikei.png in Resources */,
+				93DE3C381C92F2A300C975EE /* negitoro.jpg in Resources */,
+				93DE3C321C92F2A300C975EE /* kinmedai.jpg in Resources */,
+				93DE3C301C92F2A300C975EE /* hirame.jpg in Resources */,
+				93DE3C311C92F2A300C975EE /* hokke.jpg in Resources */,
+				93DE3C361C92F2A300C975EE /* mongara.jpeg in Resources */,
+				93DE3C371C92F2A300C975EE /* mozuku.jpg in Resources */,
+				93DE3C351C92F2A300C975EE /* masaba.jpg in Resources */,
+				93DE3C2A1C92F2A300C975EE /* antyobi.jpg in Resources */,
+				93DE3C3A1C92F2A300C975EE /* now.png in Resources */,
 				935AC0061C8ACEFF00AD2C19 /* LaunchScreen.storyboard in Resources */,
+				93DE3C2B1C92F2A300C975EE /* arowana.jpeg in Resources */,
+				93DE3C3C1C92F2A300C975EE /* syotturu.jpeg in Resources */,
+				93DE3C391C92F2A300C975EE /* next.png in Resources */,
+				93DE3C3D1C92F2A300C975EE /* tatiuo.jpg in Resources */,
+				93DE3C2C1C92F2A300C975EE /* bbasu.jpg in Resources */,
+				93DE3C341C92F2A300C975EE /* mahimahi.jpeg in Resources */,
 				935AC0031C8ACEFF00AD2C19 /* Assets.xcassets in Resources */,
+				93DE3C411C93123E00C975EE /* icon.png in Resources */,
+				93DE3C2F1C92F2A300C975EE /* hakofugu.png in Resources */,
+				93DE3C2D1C92F2A300C975EE /* dekaline.jpg in Resources */,
 				935AC0011C8ACEFF00AD2C19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,12 +382,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21031970B9CD82C16C258FE2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleAPIGetter/Pods-SimpleAPIGetter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		402A546808CBA08D6C4C9F40 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C14B95A46E80F51648CE8226 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleAPIGetter/Pods-SimpleAPIGetter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		935ABFF41C8ACEFF00AD2C19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				935ABFFE1C8ACEFF00AD2C19 /* ViewController.swift in Sources */,
+				9360B7D41C92A1D100D1552B /* NextRuleControllerViewController.swift in Sources */,
 				935ABFFC1C8ACEFF00AD2C19 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,23 +577,39 @@
 		};
 		935AC0211C8ACF0000AD2C19 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C80595341C16AF00A059BC2 /* Pods-SimpleAPIGetter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = SimpleAPIGetter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fefe.SimpleAPIGetter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "ガチマッチャー";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		935AC0221C8ACF0000AD2C19 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C219AC1A52992906CAD61365 /* Pods-SimpleAPIGetter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = SimpleAPIGetter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fefe.SimpleAPIGetter;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "ガチマッチャー";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +680,7 @@
 				935AC0221C8ACF0000AD2C19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		935AC0231C8ACF0000AD2C19 /* Build configuration list for PBXNativeTarget "SimpleAPIGetterTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +689,7 @@
 				935AC0251C8ACF0000AD2C19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		935AC0261C8ACF0000AD2C19 /* Build configuration list for PBXNativeTarget "SimpleAPIGetterUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +698,7 @@
 				935AC0281C8ACF0000AD2C19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
